@@ -45,7 +45,7 @@ const ViewMovies = () => {
         updateLoading(true);
         try{
             let apikey=process.env.REACT_APP_MOVIE_API_KEY;
-              const res=await axios.get(`http://www.omdbapi.com/?i=tt3896198&apikey=${apikey}&t=${movieName}`);
+              const res=await axios.get(`https://www.omdbapi.com/?i=tt3896198&apikey=${apikey}&t=${movieName}`);
              updateMovieData(res.data);
             }
           catch(error)
