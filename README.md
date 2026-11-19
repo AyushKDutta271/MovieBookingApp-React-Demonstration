@@ -64,7 +64,7 @@ npm run build
 
 ## 🌐 Live Demo
 
-[View Movie Booking App](https://dashing-hamster-2ace66.netlify.app/view)
+[View Movie Booking App](https://dashing-hamster-2ace66.netlify.app)
 
 ## 📂 Project Structure
 
