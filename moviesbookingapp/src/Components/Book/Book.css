@@ -1,0 +1,96 @@
+
+
+.first-row>.seat,.last-row>.seat{
+    background-color: gold;
+}
+
+.middle-row>.seat{
+    background-color: gray;
+    
+}
+
+.seat:hover{
+    width:50px;
+    height:45px;
+    align-self: center;
+}
+
+
+.seats-div{
+width:100%;
+
+color:chocolate;
+font-weight: bold;
+}
+
+.seat{
+    width:75px;
+    height:60px;
+    box-shadow: 3px 2px 2px 2px black;
+}
+
+.first-row,.middle-row,.last-row{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    height:80px;
+    width:900px;
+    margin:0 auto
+}
+
+.book-div{
+    background-image: url("https://img.magnific.com/free-photo/rows-red-seats-theater_53876-64710.jpg?semt=ais_hybrid&w=740&q=80");
+    height: 2000px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   object-fit: cover;
+    margin-top: -3%;
+
+}
+
+.days-list,.times-list{
+    display: flex;
+    justify-content: space-around;
+    width:500px;
+    margin:0 auto
+
+}
+ 
+.days-list{
+color:aliceblue
+}
+
+.display-daytime>p{
+    color:aqua;
+    font-size: 22px;
+}
+
+.days-headline,.times-heading{
+    color:aqua;
+    font-size: 22px;
+}
+.movie-title{
+   color:khaki 
+}
+
+.booking-headline{
+    color:burlywood
+}
+
+.cancel-movie>a{
+    
+    color:black;
+     text-decoration: none;
+    height:100%;
+    width:100%
+}
+
+.cancel-movie{
+    
+    background-color: red;
+    margin-left: 20%;
+    
+    height:50px;
+    width:90px;
+}

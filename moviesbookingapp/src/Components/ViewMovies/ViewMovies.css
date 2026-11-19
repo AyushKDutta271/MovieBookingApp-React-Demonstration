@@ -1,0 +1,85 @@
+li{
+    list-style-type: none;
+}
+
+.view-div{
+    background-image: url("https://wallpapercave.com/wp/wp11158156.jpg");
+    height:2000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+    
+}
+
+
+form{
+    height:100px;
+    width:400px;
+    margin:0 auto;
+    color:indianred;
+  
+}
+
+form label{
+    font-size: 30px;
+    
+    font-family: fantasy;
+}
+
+form input{
+    height: 30px;
+    width:200px
+}
+
+form>div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+form button{
+    margin-top: 20px;
+    height:30px;
+    width:70px;
+    background-color:#f2c39d
+}
+
+.movieinfo-para{
+    height:280px;
+    width:300px;
+    margin:1% auto;
+   
+}
+
+.movieinfo-para li{
+    font-size: 35px;
+    font-family: fantasy;
+    color:bisque
+}
+
+.movieinfo-para span{
+    margin-right: 10px;
+    color:coral
+}
+
+.movieinfo-para button{
+ margin-top: 20px;
+    height:70px;
+    width:100px;
+    background-color:crimson;
+    
+    
+}
+
+.movieinfo-para button a{
+    text-decoration: none;
+    color:chartreuse;
+    font-size: 32px;
+}
+
+.movie-display{
+    height:15%;
+    width:30%;
+    margin:0 auto;
+}

@@ -1,0 +1,85 @@
+.payment-div{
+    background-color: yellow;
+    height:1500px;
+    background-image: url("https://i.ytimg.com/vi/KA3847T4Jx8/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBkgWyh_MA8=&rs=AOn4CLBbbmQYWQIdX-ERJ1j95mkG7OiUTQ");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+.warning{
+    color:red;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.success{
+    color:green;
+    
+}
+
+.payment-form{
+    margin:0 auto;
+   
+    height:400px;
+    width:500px;
+}
+
+.payment-form button{
+    height:50px;
+    width:90px;
+}
+
+.payment-form label{
+    color:indigo;
+    font-size: 32px;
+}
+
+.payment-form>div{
+    margin-top:25px
+}
+
+
+.payment-div img{
+    float: left;
+   
+    margin-top: 0;
+    width:100%;
+    height:100%;
+    background-size: 100%;
+    object-fit: cover;
+}
+
+.success-div{
+    margin-top: 20px;
+        
+        height:80px;
+}
+
+.process-div{
+  
+   width:390px ;
+   height:380px;
+   margin-top: 0px;
+   margin-left: 5%;
+}
+
+.form-poster{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cancel-movie>a{
+   
+    color:black;
+    text-decoration: none;
+    height:100%;
+    width:100%
+}
+
+.cancel-movie{
+    border-radius: 15px;
+    background-color: red;
+}

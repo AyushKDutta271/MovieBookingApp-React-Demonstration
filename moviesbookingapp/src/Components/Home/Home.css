@@ -1,0 +1,91 @@
+.top-nav{
+    display: flex;
+    justify-content: space-around;
+    
+    background-color:#aa8a38;
+    height:70px;
+    align-items: center;
+    border-radius: 24px;
+    
+}
+
+
+
+.top-nav>a{
+    color:#56c0ea;
+    font-family:fantasy;
+    text-decoration: none;
+    font-size: 28px;
+}
+.top-nav>a:hover{
+
+font-size: 22px;
+}
+.middle-layer{
+    margin:10% auto;
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin-left:1%;
+    
+}
+
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:280px;
+    
+    background-color:#cc9eed;
+    width:15%;
+    border-radius: 24px;
+}
+
+.side-nav>a{
+    text-decoration: none;
+    font-family:fantasy;
+}
+
+.side-nav>a:hover{
+    color:#dcc9ea
+}
+
+.slide-walkthrough{
+    margin-right: 20%;
+    background-color: blue;
+    width:50%;
+    border-radius: 30px;
+}
+
+.home-div{
+    background-image: url("https://img.freepik.com/free-vector/cinema-room-background_1017-8728.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    object-fit: cover;
+    height:1000px
+}
+
+.display-daytime, .available-seats-div, .display-seats-div{
+    color:yellowgreen;
+    font-size: 28px;
+}
+
+.housefull-seats-div{
+    color:red;
+    font-size: 28px;
+}
+
+.payment-btn{
+    height:70px;
+    width:100px;
+    background-color:green;
+    color:white
+}
+
+.payment-btn>a{
+    color:white;
+    text-decoration: none;
+    font-size: 22px;
+}
+

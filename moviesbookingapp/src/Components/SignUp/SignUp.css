@@ -1,0 +1,9 @@
+.signup-form{
+    background-color: palegreen;
+    height:1000px;
+    margin-top:-2%
+}
+
+.signup-form label{
+    font-size: 22px;
+}
