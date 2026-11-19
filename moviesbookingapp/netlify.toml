@@ -1,9 +1,9 @@
 [[build]]
-base="moviesbookingapp/"
+base="moviesbookingapp"
 command="npm run build"
 publish="dist"
 
 [[redirect]]
 from="/*"
-to="/index.html'
+to="/index.html"
 status=200
