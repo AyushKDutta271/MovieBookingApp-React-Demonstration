@@ -1,7 +1,7 @@
 [[build]]
 base="moviesbookingapp"
 command="npm run build"
-publish="build"
+publish="moviebookingapp/build"
 
 [[redirect]]
 from="/*"
