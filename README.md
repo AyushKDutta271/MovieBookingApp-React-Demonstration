@@ -5,7 +5,7 @@ A web-based Movie Booking Application that provides users with an interface to e
 ## 🚀 Features
 
 - Browse and explore movies.
-- View movie details through fetching from api.
+- View movie details by fetching from api.
 - Navigate through the application using React routing.
 - Movie booking functionality.
 
